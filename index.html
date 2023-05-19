@@ -4,107 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marierabill Portfolio</title>
-    <style>
-        /* CSS styles go here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 28px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            background-color: #f5f5f5;
-        }
-
-        nav ul li {
-            margin: 0 10px;
-        }
-
-        nav ul li a {
-            color: #333;
-            text-decoration: none;
-            padding: 10px;
-        }
-
-        section {
-            padding: 40px;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        .project {
-            margin-bottom: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Marierabill Portfolio</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Marierabill Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself and your background.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of the project.</p>
-            <a href="https://github.com/marierabill/project1">GitHub Repository</a>
-            <a href="https://project1demo.com">Live Demo</a>
-        </div>
-        
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of the project.</p>
-            <a href="https://github.com/marierabill/project2">GitHub Repository</a>
-            <a href="https://project2demo.com">Live Demo</a>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself and your background.</p>
         </div>
     </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to contact me for collaboration or any inquiries.</p>
-        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row" id="projectList">
+                <!-- AJAX content will be dynamically loaded here -->
+            </div>
+        </div>
     </section>
-    
-    <footer>
-        <p>&copy; 2023 Marierabill Portfolio. All rights reserved.</p>
-    </footer>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to contact me for collaboration or any inquiries.</p>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+        </div>
+    </section>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script>
+        // AJAX request to load projects dynamically
+        $(document).ready(function() {
+            $.ajax({
+                url: 'projects.json',
+                dataType: 'json',
+                success: function(data) {
+                    // Loop through the projects data and generate HTML dynamically
+                    for (var i = 0; i < data.length; i++) {
+                        var project = data[i];
+                        var projectHTML = `
+                            <div class="col-md-6">
+                                <div class="card mb-4">
+                                    <img src="${project.image}" class="card-img-top" alt="${project.title}">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${project.title}</h5>
+                                        <p class="card-text">${project.description}</p>
+                                        <a href="${project.repository}" class="btn btn-primary">GitHub Repository</a>
+                                        <a href="${project.demo}" class="btn btn-secondary">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        $('#projectList').append(projectHTML);
+                    }
+                },
+                error: function() {
+                    console.log('Error loading projects.');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
