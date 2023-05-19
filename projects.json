@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Project 1",
+    "description": "Description of Project 1",
+    "image": "images/project1.jpg",
+    "repository": "https://github.com/marierabill/project1",
+    "demo": "https://project1demo.com"
+  },
+  {
+    "title": "Project 2",
+    "description": "Description of Project 2",
+    "image": "images/project2.jpg",
+    "repository": "https://github.com/marierabill/project2",
+    "demo": "https://project2demo.com"
+  }
+]
