@@ -56,12 +56,12 @@ I'm a **Computer Science graduate🎓** and a **Tech Enthusiast 💻 😃.** I a
 <code><img height="30" src="https://avatars2.githubusercontent.com/u/1728152?s=200&v=4"></code>  
 
 
-### 🚀 Quick Stats
+<!-- ### 🚀 Quick Stats
 <p align="center">
 <img width="450" align="left" src="https://github-readme-stats-defcon27.vercel.app/api?username=Defcon27&show_icons=true&line_height=21&theme=react" alt="Defcon27's Github Stats" />
 <!-- <img width="340" height="155" align="center" 
      src="https://github-readme-stats-defcon27.vercel.app/api/top-langs/?username=Defcon27&langs_count=6&hide=handlebars,jupyter notebook,css&theme=react&line_height=27&layout=compact" /> -->
-</p>
+</p-->
 
 
 <!-- ![Profile Views](https://komarev.com/ghpvc/?username=marierabill) -->
