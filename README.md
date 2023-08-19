@@ -4,7 +4,7 @@
 ### 📬 Find me at
 [![Github Badge](http://img.shields.io/badge/-Github-black?style=flat-square&logo=github&link=https://github.com/marierabill/)](https://github.com/marierabill/) 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marierabill/)](https://www.linkedin.com/in/marierabill)
-[![Hackerrank Badge](https://img.shields.io/badge/-Hackerrank-2EC866?style=flat-square&logo=HackerRank&logoColor=white&link=https://www.hackerrank.com/Defcon27)](https://www.hackerrank.com/Defcon27)
+[![Hackerrank Badge](https://img.shields.io/badge/-Hackerrank-2EC866?style=flat-square&logo=HackerRank&logoColor=white&link=https://www.hackerrank.com/marierabill)](https://www.hackerrank.com/marierabill)
 [![Stackoverflow Badge](https://img.shields.io/badge/-Stack%20overflow-FE7A16?style=flat-square&logo=stack-overflow&logoColor=white&link=https://stackoverflow.com/users/11534375/hemanth-kollipara)](https://stackoverflow.com/users/11534375/hemanth-kollipara)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:defcon.sentinal95@gmail.com)](mailto:defcon.sentinal95@gmail.com)
 [![GeeksforGeeks Badge](https://img.shields.io/badge/-GeeksforGeeks-0F9D58?style=flat-square&logo=GeeksforGeeks&logoColor=white&link=https://auth.geeksforgeeks.org/user/hemanthkollipara/articles)](https://auth.geeksforgeeks.org/user/hemanthkollipara/articles)
@@ -58,13 +58,13 @@ I'm an **Undergrad Student🎓 [@VIT Vellore](https://www.vit.ac.in)** pursuing 
 
 ### 🚀 Quick Stats
 <p align="center">
-<img width="450" align="left" src="https://github-readme-stats-defcon27.vercel.app/api?username=Defcon27&show_icons=true&line_height=21&theme=react" alt="Defcon27's Github Stats" />
+<img width="450" align="left" src="https://github-readme-stats-marierabill.vercel.app/api?username=marierabill&show_icons=true&line_height=21&theme=react" alt="marierabill's Github Stats" />
 <!-- <img width="340" height="155" align="center" 
-     src="https://github-readme-stats-defcon27.vercel.app/api/top-langs/?username=Defcon27&langs_count=6&hide=handlebars,jupyter notebook,css&theme=react&line_height=27&layout=compact" /> -->
+     src="https://github-readme-stats-marierabill.vercel.app/api/top-langs/?username=marierabill&langs_count=6&hide=handlebars,jupyter notebook,css&theme=react&line_height=27&layout=compact" /> -->
 </p>
 
 
-<!-- ![Profile Views](https://komarev.com/ghpvc/?username=Defcon27) -->
+<!-- ![Profile Views](https://komarev.com/ghpvc/?username=marierabill) -->
 
 
 <!-- <details>
@@ -72,10 +72,10 @@ I'm an **Undergrad Student🎓 [@VIT Vellore](https://www.vit.ac.in)** pursuing 
 <br>
 <p align="center">
 <a href="https://github.com/marierabill/Machine-Learning">
-<img src="https://github-readme-stats-defcon27.vercel.app/api/pin/?username=Defcon27&repo=Machine-Learning&show_owner=true&theme=react" />
+<img src="https://github-readme-stats-marierabill.vercel.app/api/pin/?username=marierabill&repo=Machine-Learning&show_owner=true&theme=react" />
 </a>&ensp;
 <a href="https://github.com/marierabill/Deep-Learning">
-<img src="https://github-readme-stats-defcon27.vercel.app/api/pin/?username=Defcon27&repo=Deep-Learning&show_owner=true&theme=react" />
+<img src="https://github-readme-stats-marierabill.vercel.app/api/pin/?username=marierabill&repo=Deep-Learning&show_owner=true&theme=react" />
 </a>
 </p>
 </details> -->
@@ -83,15 +83,15 @@ I'm an **Undergrad Student🎓 [@VIT Vellore](https://www.vit.ac.in)** pursuing 
 
 
 <!--
-**Defcon27/Defcon27** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**marierabill/marierabill** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 pic on right
 <img height="270" src="sss.svg" align=right>
 
  
 views
-![Profile Views](https://komarev.com/ghpvc/?username=Defcon27)
-[![HitCount](http://hits.dwyl.com/Defcon27/.svg)](http://hits.dwyl.com/Defcon27)
+![Profile Views](https://komarev.com/ghpvc/?username=marierabill)
+[![HitCount](http://hits.dwyl.com/marierabill/.svg)](http://hits.dwyl.com/marierabill)
 
 
 social modded badge
