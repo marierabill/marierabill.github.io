@@ -11,7 +11,7 @@
 
 
 ### A little about me...  <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
-I'm a **Computer Science graduate🎓** and a **Tech Enthusiast 💻 😃** passionate about learning and working with new tech. I love building interesting and amazing products that serve a great deal of purpose. <br/><br/>
+I'm a **Computer Science graduate🎓** and a **Tech Enthusiast 💻 😃.** I am passionate about learning and working with new tech. I love building interesting and amazing products that serve a great deal of purpose. <br/><br/>
 
 
 
@@ -19,7 +19,7 @@ I'm a **Computer Science graduate🎓** and a **Tech Enthusiast 💻 😃** pass
 ## ⚡️ A Few Quick Facts
 
 - 🔭 I’m currently working on NLP Project
-- 🌱 I’m currently learning Java ☕
+- 🌱 I’m currently working on a Project in Java ☕
 <img width="490" height="270" src="https://media.giphy.com/media/9B8wYztAoe1zO/source.gif" align=right>
 
 - <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  I enjoy working on
@@ -31,7 +31,7 @@ I'm a **Computer Science graduate🎓** and a **Tech Enthusiast 💻 😃** pass
 - 👯 I’m looking to collaborate on making hardware projects with Raspberry Pi or Nvidia Jetson Nano
 - 🤔 I’m looking for help with Devops
 - 💬 Ask me about Python, ML, CV, Raspi
-- 📙 Check out my [Resume](https://www.linkedin.com/in/hemanthkollipara/)
+- 📙 Check out my [Resume](https://www.linkedin.com/in/marierabill/)
 - 🎉 Fun-Fact: I ❤️ Astrophysics and SpaceX🚀 and watch a lot Sci-Fi Movies🎬
 
   
@@ -58,9 +58,9 @@ I'm a **Computer Science graduate🎓** and a **Tech Enthusiast 💻 😃** pass
 
 ### 🚀 Quick Stats
 <p align="center">
-<img width="450" align="left" src="https://github-readme-stats-marierabill.vercel.app/api?username=marierabill&show_icons=true&line_height=21&theme=react" alt="marierabill's Github Stats" />
+<img width="450" align="left" src="https://github-readme-stats-defcon27.vercel.app/api?username=Defcon27&show_icons=true&line_height=21&theme=react" alt="Defcon27's Github Stats" />
 <!-- <img width="340" height="155" align="center" 
-     src="https://github-readme-stats-marierabill.vercel.app/api/top-langs/?username=marierabill&langs_count=6&hide=handlebars,jupyter notebook,css&theme=react&line_height=27&layout=compact" /> -->
+     src="https://github-readme-stats-defcon27.vercel.app/api/top-langs/?username=Defcon27&langs_count=6&hide=handlebars,jupyter notebook,css&theme=react&line_height=27&layout=compact" /> -->
 </p>
 
 
